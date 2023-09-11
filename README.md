@@ -7,11 +7,16 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
 
 
 ## HTML Structure
+
+### Header Section:
+![image](https://github.com/saifulislam05/fwt-4-css/assets/73392705/fa9f701b-61a1-4e32-9df7-4c83830426ed)
 - `<header>`: The header section of the web page.
   - `<nav class="navbar">`: Navigation bar.
     - `<h2><a href="#"></a></h2>`: Company logo.
     - `<ul class="nav_items">`: Navigation links.
       - `<li><a href="#"></a></li>`: Individual navigation items.
+### Hero Section:
+![image](https://github.com/saifulislam05/fwt-4-css/assets/73392705/e312de4c-7666-473e-bf91-deda6ba30125)
 
 - `<section class="hero">`: Hero section with background image and content.
   - `<div class="overlay">`: Semi-transparent overlay.
@@ -19,6 +24,8 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
     - `<h1></h1>`: Title.
     - `<p></p>`: Description.
     - `<a href="#services" class="btn"></a>`: Button to navigate to services section.
+### Service Section: 
+![image](https://github.com/saifulislam05/fwt-4-css/assets/73392705/7d190c9c-c267-4480-86cf-c7023ffc6bc5)
 
 - `<section class="services" id="services">`: Services section showcasing camping gear.
   - `<h2 class="title"></h2>`: Section title.
@@ -28,6 +35,8 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
       - `<img src="service-image.jpg" alt="Service">`: Image.
       - `<h3>Service Name</h3>`: Service name.
       - `<p>Service description.</p>`: Service description.
+### About Section:
+![image](https://github.com/saifulislam05/fwt-4-css/assets/73392705/f9d0f268-fe32-47c3-873a-b47dd5aec98e)
 
 - `<section class="about" id="about">`: About Us section.
   - `<h2 class="title"></h2>`: Section title.
@@ -36,6 +45,8 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
     - `<h3>Our Story</h3>`: Story title.
     - `<p>Company story description.</p>`: Story description.
   - Similar structure for mission, vision, and team information.
+### Contact Section:
+![image](https://github.com/saifulislam05/fwt-4-css/assets/73392705/6895d0ba-f28d-41e5-a7ec-488b49bdb4f1)
 
 - `<section class="contact" id="contact">`: Contact Us section.
   - `<h2 class="title">Contact Us</h2>`: Section title.
