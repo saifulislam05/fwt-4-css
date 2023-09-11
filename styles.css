@@ -2,29 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 /* -----------Global style--------- */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: #f2f2f2;
 }
 
-.container{
-    width:100% ;
+.container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* ---------------Header Section Start --------------- */
-header{
+header {
     width: 100%;
     background: #333;
     position: fixed;
@@ -34,28 +34,32 @@ header{
     color: #ffffff;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px 0 ;
+    padding: 20px 0;
 
 }
-.nav_items{
+
+.nav_items {
     width: 40%;
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
 }
-.navbar a{
+
+.navbar a {
     color: #ffffff;
     text-decoration: none;
 }
-.navbar a:hover{
-    color:#ddd ;
+
+.navbar a:hover {
+    color: #ddd;
 }
+
 /* ------------Header Section End ------------ */
 
 /* ------------Hero Section Start ------------ */
@@ -116,18 +120,23 @@ header{
     color: #fff;
     background: rgba(255, 255, 255, 0.3);
 }
+
 /* ------------Hero Section End ------------ */
 
 /* -----------Services Section Start ----------- */
-.services{
+.services {
     padding: 80px 0 0;
 }
-.title{
+
+.title {
     font-size: 2rem;
 }
-.title , .titles-para{
+
+.title,
+.titles-para {
     text-align: center;
 }
+
 section .cards {
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +145,7 @@ section .cards {
     padding: 0 10px;
     justify-content: space-between;
 }
+
 section .cards .card {
     background: #fff;
     padding: 40px 15px;
@@ -145,6 +155,7 @@ section .cards .card {
     width: calc(100% / 3 - 30px);
     text-align: center;
 }
+
 .services .card img {
     width: 120px;
     height: 120px;
@@ -152,22 +163,27 @@ section .cards .card {
     border-radius: 100%;
     object-fit: cover;
 }
+
 /* -----------Services Section End ----------- */
 
 /* -----------About Section Start ----------- */
 
-.about{
+.about {
     padding: 80px 0 0;
 }
+
 .about h3 {
-    margin: 30px 0 10px ;
+    margin: 30px 0 10px;
 }
+
 .about .company-info {
     margin-top: 30px;
 }
+
 .about .row {
     padding: 0 10px;
 }
+
 .about .team {
     text-align: left;
     width: 100%;
@@ -180,6 +196,10 @@ section .cards .card {
 /* -----------About Section End ----------- */
 
 /* -----------Contact Section Start ----------- */
+.contact {
+    padding: 80px 0 0;
+}
+
 .contact .row {
     margin: 60px 0 90px;
     display: flex;
@@ -193,6 +213,7 @@ section .cards .card {
     padding: 0 10px;
     width: calc(100% / 2 - 50px);
 }
+
 .contact .col p {
     margin-bottom: 10px;
 }
@@ -237,4 +258,5 @@ section .cards .card {
 .contact form button:hover {
     background: #525252;
 }
+
 /* -----------Contact Section End ----------- */
