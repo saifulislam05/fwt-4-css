@@ -7,23 +7,22 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
 
 
 ## HTML Structure
-- `<header>`: Represents the header section of the web page.
-  - `<nav class="navbar">`: Contains navigation links.
-    - `<h2><a href="#">LOGO</a></h2>`: Displays the company logo.
-    - `<ul class="nav_items">`: Contains navigation items.
-      - List of navigation links (`<li><a href="#">Link</a></li>`).
+- `<header>`: The header section of the web page.
+  - `<nav class="navbar">`: Navigation bar.
+    - `<h2><a href="#"></a></h2>`: Company logo.
+    - `<ul class="nav_items">`: Navigation links.
+      - `<li><a href="#"></a></li>`: Individual navigation items.
 
-- `<section class="hero">`: The hero section with background image and content.
-  - Background image with styling.
-  - `<div class="overlay">`: A semi-transparent overlay.
-  - `<div class="content">`: Hero content.
-    - `<h1>Camping Gear and Essentials</h1>`: Title.
-    - `<p>Discover top-quality camping gear for unforgettable outdoor adventures. Gear up and make lasting memories.</p>`: Description.
-    - `<a href="#services" class="btn">Our Services</a>`: Button to navigate to services section.
+- `<section class="hero">`: Hero section with background image and content.
+  - `<div class="overlay">`: Semi-transparent overlay.
+  - `<div class="content">`: Content within the hero section.
+    - `<h1></h1>`: Title.
+    - `<p></p>`: Description.
+    - `<a href="#services" class="btn"></a>`: Button to navigate to services section.
 
 - `<section class="services" id="services">`: Services section showcasing camping gear.
-  - `<h2 class="title">Our Services</h2>`: Section title.
-  - `<p class="titles-para">Explore our wide range of camping gear services.</p>`: Section description.
+  - `<h2 class="title"></h2>`: Section title.
+  - `<p class="titles-para"></p>`: Section description.
   - `<div class="cards">`: Container for service cards.
     - `<div class="card">`: Individual service card.
       - `<img src="service-image.jpg" alt="Service">`: Image.
@@ -31,21 +30,21 @@ The "Camping Gear and Essentials" project is a responsive web page that showcase
       - `<p>Service description.</p>`: Service description.
 
 - `<section class="about" id="about">`: About Us section.
-  - `<h2 class="title">About Us</h2>`: Section title.
-  - `<p class="titles-para">Discover our story in providing camping services.</p>`: Section description.
+  - `<h2 class="title"></h2>`: Section title.
+  - `<p class="titles-para"></p>`: Section description.
   - `<div class="row company-info">`: Company information.
     - `<h3>Our Story</h3>`: Story title.
     - `<p>Company story description.</p>`: Story description.
-  - Other rows with similar structure for mission, vision, and team information.
+  - Similar structure for mission, vision, and team information.
 
 - `<section class="contact" id="contact">`: Contact Us section.
   - `<h2 class="title">Contact Us</h2>`: Section title.
   - `<p class="titles-para">Reach out to us for any inquiries or feedback.</p>`: Section description.
   - `<div class="row">`: Contact information and form.
     - `<div class="col information">`: Contact details.
-      - Contact details including address, email, phone, and working hours.
+      - Address, email, phone, working hours, etc.
     - `<div class="col form">`: Contact form.
-      - `<form>`: Contact form with fields for name, email, message, and a "Send Message" button.
+      - `<form>`: Form fields for name, email, message, and a "Send Message" button.
 
 ## CSS Styles
 
