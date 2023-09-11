@@ -122,10 +122,10 @@ header{
 .services{
     padding: 80px 0 0;
 }
-.services h2{
+.title{
     font-size: 2rem;
 }
-.services h2 , .services p{
+.title , .titles-para{
     text-align: center;
 }
 section .cards {
@@ -153,3 +153,88 @@ section .cards .card {
     object-fit: cover;
 }
 /* -----------Services Section End ----------- */
+
+/* -----------About Section Start ----------- */
+
+.about{
+    padding: 80px 0 0;
+}
+.about h3 {
+    margin: 30px 0 10px ;
+}
+.about .company-info {
+    margin-top: 30px;
+}
+.about .row {
+    padding: 0 10px;
+}
+.about .team {
+    text-align: left;
+    width: 100%;
+}
+
+.about .team ul {
+    padding-left: 20px;
+}
+
+/* -----------About Section End ----------- */
+
+/* -----------Contact Section Start ----------- */
+.contact .row {
+    margin: 60px 0 90px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .row .col {
+    padding: 0 10px;
+    width: calc(100% / 2 - 50px);
+}
+.contact .col p {
+    margin-bottom: 10px;
+}
+
+.contact .col p i {
+    color: #7a7a7a;
+    margin-right: 10px;
+}
+
+.contact form input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+}
+
+.contact form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+}
+
+.contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+}
+
+.contact form button:hover {
+    background: #525252;
+}
+/* -----------Contact Section End ----------- */
